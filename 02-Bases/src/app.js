@@ -24,7 +24,7 @@
 
 const getPokemonById = require("./js-foundations/06-Promises")
 
-getPokemonById(16)
+getPokemonById(4)
     .then((pokemon) => console.log({pokemon}))
     .catch((err) => console.log("Por favor intente de nuevo"))
     .finally(() => console.log("Finalmente"))

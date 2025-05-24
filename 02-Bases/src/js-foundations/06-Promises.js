@@ -1,12 +1,10 @@
+const { http } = require("../plugins")
 
-const getPokemonById = (id) => {
+const getPokemonById = async (id) => {
     const url = `https://pokeapi.co/api/v2/pokemon/${id}`
 
-    return fetch(url).then((response) => {
-        return response.json()
-    })
-    // .then(() => {throw new Error("Pokemon no encontrado")})
-    .then((pokemon) => pokemon.name)
+    const pokemon = await http.get(url)
+    return pokemon.name
 
 }
 
