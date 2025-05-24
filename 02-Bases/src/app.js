@@ -4,11 +4,11 @@
 
 
 // require("./js-foundations/02-destructuring")
-const {getUserById} = require("./js-foundations/03-callbacks")
+const {getUserById} = require("./js-foundations/04-arrow")
 
-const id = 3
+const id = 1
 
-getUserById(id, function(error, user){
+getUserById(id, (error, user) =>{
     if(error){
         throw new Error(error)
     }
