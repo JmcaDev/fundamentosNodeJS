@@ -29,7 +29,7 @@
 //     .catch((err) => console.error("Por favor intente de nuevo"))
 //     .finally(() => console.log("Finalmente"))
 
-const { buildLogger } = require("./plugins")
+import { buildLogger } from "./plugins/logger.plugin"
 
 const logger = buildLogger("app.js")
 logger.log("Hola mundo")
