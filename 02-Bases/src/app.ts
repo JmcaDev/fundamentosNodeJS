@@ -1,3 +1,4 @@
+/*
 // const {emailTemplate} = require("./js-foundations/01-template")
 // console.log(emailTemplate)
 
@@ -29,8 +30,10 @@
 //     .catch((err) => console.error("Por favor intente de nuevo"))
 //     .finally(() => console.log("Finalmente"))
 
-import { buildLogger } from "./plugins/logger.plugin"
+// import { buildLogger } from "./plugins/logger.plugin"
 
-const logger = buildLogger("app.js")
-logger.log("Hola mundo")
-logger.error("Esto es un error")
+// const logger = buildLogger("app.js")
+// logger.log("Hola mundo")
+// logger.error("Esto es un error")
+*/
+
