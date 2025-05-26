@@ -6,7 +6,7 @@ const { PROMPT, windir } = process.env
 
 // console.table({PROMPT, windir})
 
-const characteres = ["Flash", "Superman", "Green lanter", "Batman"]
+export const characteres = ["Flash", "Superman", "Green lanter", "Batman"]
 
 const [flash, superman, greenLanter, batman] = characteres
 
